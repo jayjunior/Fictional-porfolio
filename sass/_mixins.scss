@@ -1,0 +1,20 @@
+@mixin socialMedia {
+	background-color: transparentize($color: #000000, $amount: 0.8);
+	position: fixed;
+	top: 45vh;
+	padding: 0.6rem;
+	color: $white;
+	font-size: 1.5rem;
+	border-radius: 50%;
+	text-decoration: none;
+}
+@mixin input {
+	color: white;
+	padding: 0rem 0.625rem 0.625rem 0.625rem;
+	padding-left: 0rem;
+	border: none;
+	border-bottom: 1px solid $white;
+	outline: none;
+	width: 80%;
+	background-color: transparentize($color: #000000, $amount: 1);
+}
